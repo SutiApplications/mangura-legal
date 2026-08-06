@@ -1,1 +1,1 @@
-export { appStorePrivacyAnswers, privacyPolicy } from "./generated-legal-documents";
+export { privacyPolicy, termsOfUse } from "./generated-legal-documents";

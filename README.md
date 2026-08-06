@@ -6,12 +6,12 @@ Privacy documentation and the GitHub Pages site for the Mangura iOS app.
 
 - Privacy center: <https://sutiapplications.github.io/mangura-legal/>
 - Privacy policy: <https://sutiapplications.github.io/mangura-legal/privacy/>
-- App Store privacy answers: <https://sutiapplications.github.io/mangura-legal/app-store-privacy/>
+- Terms of use: <https://sutiapplications.github.io/mangura-legal/terms/>
 
 ## Documents
 
 - [`PRIVACY_POLICY.md`](PRIVACY_POLICY.md) is the public privacy policy.
-- [`APP_STORE_PRIVACY_ANSWERS.md`](APP_STORE_PRIVACY_ANSWERS.md) is the internal submission reference rendered on the site with `noindex` metadata.
+- [`TERMS_OF_USE.md`](TERMS_OF_USE.md) is the public terms of use.
 
 The website reads these Markdown files at build time, so the documents are the single source of truth.
 
@@ -39,8 +39,6 @@ The workflow obtains the repository base path from GitHub Pages and passes it to
 ## Updating the policy
 
 1. Review the production app’s dependencies, enabled services, and remote dashboard settings.
-2. Update the Markdown documents and their effective/audit dates.
+2. Update the Markdown documents and their effective dates.
 3. Build the site and inspect the generated privacy pages.
 4. Update App Store Connect if any disclosed data type, purpose, linkage, or tracking answer changed.
-
-The App Store answers are a technical implementation aid and are not legal advice.

@@ -9,7 +9,6 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: `${basePath}/`,
-      disallow: `${basePath}/app-store-privacy/`,
     },
     sitemap: "https://sutiapplications.github.io/mangura-legal/sitemap.xml",
   };

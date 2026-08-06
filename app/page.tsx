@@ -22,8 +22,8 @@ export default function Home() {
             <Link className="button button-primary" href="/privacy/">
               Read the privacy policy
             </Link>
-            <Link className="button button-secondary" href="/app-store-privacy/">
-              View App Store answers
+            <Link className="button button-secondary" href="/terms/">
+              Read the terms of use
             </Link>
           </div>
           <p className="status-line"><span aria-hidden="true">●</span> Current for Mangura 1.0 · Updated 6 August 2026</p>
@@ -68,7 +68,7 @@ export default function Home() {
       <section className="document-links shell" aria-labelledby="documents-title">
         <div className="section-heading">
           <p className="eyebrow">The documents</p>
-          <h2 id="documents-title">Readable by people. Useful for review.</h2>
+          <h2 id="documents-title">Clear terms. Straight answers.</h2>
         </div>
         <div className="document-grid">
           <Link className="document-card featured" href="/privacy/">
@@ -77,11 +77,11 @@ export default function Home() {
             <p>What the app stores, which services receive data, and who is responsible for user-added sources and content.</p>
             <strong>Read policy <span aria-hidden="true">→</span></strong>
           </Link>
-          <Link className="document-card" href="/app-store-privacy/">
-            <span>For App Store Connect</span>
-            <h3>Privacy Answers</h3>
-            <p>The audited data-type selections, purposes, linkage, tracking answers, and review checkpoints.</p>
-            <strong>Open answers <span aria-hidden="true">→</span></strong>
+          <Link className="document-card" href="/terms/">
+            <span>Using Mangura</span>
+            <h3>Terms of Use</h3>
+            <p>The rules for using the app, connected services, user-added sources, and Mangura Pro.</p>
+            <strong>Read terms <span aria-hidden="true">→</span></strong>
           </Link>
         </div>
       </section>
