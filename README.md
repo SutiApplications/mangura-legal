@@ -4,9 +4,9 @@ Privacy documentation and the GitHub Pages site for the Mangura iOS app.
 
 ## Public URLs
 
-- Privacy center: <https://ivovilas.github.io/mangura-legal/>
-- Privacy policy: <https://ivovilas.github.io/mangura-legal/privacy/>
-- App Store privacy answers: <https://ivovilas.github.io/mangura-legal/app-store-privacy/>
+- Privacy center: <https://sutiapplications.github.io/mangura-legal/>
+- Privacy policy: <https://sutiapplications.github.io/mangura-legal/privacy/>
+- App Store privacy answers: <https://sutiapplications.github.io/mangura-legal/app-store-privacy/>
 
 ## Documents
 

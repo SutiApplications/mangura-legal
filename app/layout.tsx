@@ -4,10 +4,10 @@ import Link from "next/link";
 import "./globals.css";
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-const siteUrl = "https://ivovilas.github.io/mangura-legal";
+const siteUrl = "https://sutiapplications.github.io/mangura-legal";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ivovilas.github.io"),
+  metadataBase: new URL("https://sutiapplications.github.io"),
   title: {
     default: "Mangura Privacy Center",
     template: "%s · Mangura",
@@ -80,8 +80,8 @@ export default function RootLayout({
             </div>
             <div className="footer-links">
               <Link href="/privacy/">Privacy</Link>
-              <a href="https://github.com/IvoVilas/mangura-legal">Source</a>
-              <a href="https://github.com/IvoVilas/mangura-legal/issues/new?labels=privacy&title=Privacy%20request">
+              <a href="https://github.com/SutiApplications/mangura-legal">Source</a>
+              <a href="https://github.com/SutiApplications/mangura-legal/issues/new?labels=privacy&title=Privacy%20request">
                 Contact
               </a>
             </div>

@@ -11,6 +11,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: `${basePath}/`,
       disallow: `${basePath}/app-store-privacy/`,
     },
-    sitemap: "https://ivovilas.github.io/mangura-legal/sitemap.xml",
+    sitemap: "https://sutiapplications.github.io/mangura-legal/sitemap.xml",
   };
 }

@@ -93,7 +93,7 @@ export default function Home() {
         </div>
         <a
           className="button button-secondary"
-          href="https://github.com/IvoVilas/mangura-legal/issues/new?labels=privacy&title=Privacy%20request"
+          href="https://github.com/SutiApplications/mangura-legal/issues/new?labels=privacy&title=Privacy%20request"
         >
           Contact the developer
         </a>

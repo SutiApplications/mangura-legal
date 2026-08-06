@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export const dynamic = "force-static";
 
-const siteUrl = "https://ivovilas.github.io/mangura-legal";
+const siteUrl = "https://sutiapplications.github.io/mangura-legal";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

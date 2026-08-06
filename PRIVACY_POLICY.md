@@ -63,7 +63,7 @@ You are solely responsible for every source you add and for all content you acce
 
 Mangura does not verify, endorse, approve, or certify user-added sources. Successfully importing a configuration or connecting a server is not evidence of authorization. A Mangura Pro purchase licenses only Mangura software features; it does not purchase, license, authorize, or grant access to any manga, source, website, or third-party service.
 
-Rights holders and service operators can [open a content or source concern](https://github.com/IvoVilas/mangura-legal/issues/new?labels=content-rights&title=Content%20or%20source%20concern). Please identify the work or service, explain your authority, and include enough information for us to evaluate the request without posting confidential credentials. We can take reasonable action concerning Mangura functionality or references under our control. Requests concerning content hosted by another service should also be directed to that service’s operator.
+Rights holders and service operators can [open a content or source concern](https://github.com/SutiApplications/mangura-legal/issues/new?labels=content-rights&title=Content%20or%20source%20concern). Please identify the work or service, explain your authority, and include enough information for us to evaluate the request without posting confidential credentials. We can take reasonable action concerning Mangura functionality or references under our control. Requests concerning content hosted by another service should also be directed to that service’s operator.
 
 ## Media servers you connect
 
@@ -173,6 +173,6 @@ We may update this policy when Mangura’s features or legal requirements change
 
 ## Contact
 
-For privacy questions or requests, [open a privacy request in the Mangura legal repository](https://github.com/IvoVilas/mangura-legal/issues/new?labels=privacy&title=Privacy%20request). Do not include passwords, API keys, access tokens, or sensitive personal information in a public issue.
+For privacy questions or requests, [open a privacy request in the Mangura legal repository](https://github.com/SutiApplications/mangura-legal/issues/new?labels=privacy&title=Privacy%20request). Do not include passwords, API keys, access tokens, or sensitive personal information in a public issue.
 
 Mangura’s independent developer is responsible for this policy. This contact method is also available for data-protection complaints; you may additionally contact your local data-protection authority where applicable.

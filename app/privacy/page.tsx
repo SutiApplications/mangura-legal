@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "How Mangura stores, uses, shares, and protects information.",
   alternates: {
-    canonical: "https://ivovilas.github.io/mangura-legal/privacy/",
+    canonical: "https://sutiapplications.github.io/mangura-legal/privacy/",
   },
 };
 
