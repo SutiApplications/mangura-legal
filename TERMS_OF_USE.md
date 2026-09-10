@@ -1,7 +1,7 @@
 # Mangura Terms of Use
 
 **Effective date:** 6 August 2026  
-**Last updated:** 6 August 2026
+**Last updated:** 10 September 2026
 
 These Terms of Use (“Terms”) govern your use of the Mangura iOS app and the Mangura legal website. In these Terms, “Mangura,” “we,” and “us” refer to Mangura and its independent developer.
 
@@ -66,7 +66,7 @@ You must not use Mangura to:
 
 ## Third-party services
 
-Mangura can connect directly to services you choose, including content sources, media servers, AniList, MyAnimeList, Apple iCloud, and Apple’s purchase services. RevenueCat helps Mangura verify purchases and subscription access.
+Mangura can connect directly to services you choose, including content sources, media servers, AniList, MyAnimeList, Apple iCloud, and Apple’s purchase services. RevenueCat helps Mangura verify purchases and subscription access. Google Firebase provides app analytics and crash reporting as described in the Privacy Policy.
 
 Third-party services are independent from Mangura. Your use of them is governed by their own terms, privacy policies, permissions, and availability. You must comply with all applicable third-party terms. Mangura does not control and is not responsible for third-party accounts, content, security, accuracy, availability, policy changes, or decisions to restrict access.
 

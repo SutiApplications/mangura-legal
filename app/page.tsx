@@ -26,7 +26,7 @@ export default function Home() {
               Read the terms of use
             </Link>
           </div>
-          <p className="status-line"><span aria-hidden="true">●</span> Current for Mangura 1.0 · Updated 6 August 2026</p>
+          <p className="status-line"><span aria-hidden="true">●</span> Current for Mangura 1.0 · Updated 10 September 2026</p>
         </div>
         <aside className="privacy-note" aria-label="Privacy summary">
           <p className="note-label">At a glance</p>
@@ -37,6 +37,7 @@ export default function Home() {
             <li>iCloud Sync is optional and manual</li>
             <li>Credentials live in the iOS Keychain</li>
             <li>RevenueCat receives purchase history, not payment details</li>
+            <li>Firebase receives basic app analytics and crash diagnostics</li>
           </ul>
         </aside>
       </section>

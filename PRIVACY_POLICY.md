@@ -1,7 +1,7 @@
 # Mangura Privacy Policy
 
 **Effective date:** 6 August 2026  
-**Last updated:** 6 August 2026
+**Last updated:** 10 September 2026
 
 Mangura is an iOS manga reader that connects directly to content sources and services you choose. This policy explains what information Mangura handles, where it goes, and the controls available to you.
 
@@ -14,7 +14,8 @@ In this policy, “Mangura,” “we,” and “us” refer to Mangura and its i
 - The App Store version contains no manga catalog and no preconfigured scraping sources. You must manually add only sources you own, operate, or are authorized to use.
 - Your library, downloads, settings, cookies, and credentials are stored on your device by default.
 - Mangura does not sell personal information, show third-party ads, or track you across other companies’ apps and websites.
-- The app connects directly to manga websites, media servers, AniList, MyAnimeList, Apple iCloud, and RevenueCat only as needed for the features you use.
+- The app connects directly to manga websites, media servers, AniList, MyAnimeList, Apple iCloud, RevenueCat, and Google Firebase only as needed for the features you use.
+- Google Analytics for Firebase measures basic app use and purchases, while Firebase Crashlytics receives crash and diagnostic reports so we can understand usage and improve reliability.
 - Optional iCloud Sync stores selected library data in your private iCloud database. Credentials, account tokens, cookies, local manga, downloads, and appearance settings are excluded.
 
 ## Information handled on your device
@@ -33,7 +34,24 @@ Mangura stores information needed to provide the reader, including:
 
 Tracking-service tokens and media-server credentials are stored in the iOS Keychain. Other app data is stored in the app’s local database, preferences, file storage, and system cookie storage. Mangura’s developer does not receive this on-device data.
 
-Mangura also writes operational messages to Apple’s unified logging system on your device. Those logs may include requested URLs, search terms, content identifiers, or error details. We do not automatically receive these logs. Apple may provide diagnostics to developers if you separately choose to share analytics or diagnostics with Apple under your device settings.
+Mangura also writes operational messages to Apple’s unified logging system on your device. Those logs may include requested URLs, search terms, content identifiers, or error details. We do not automatically receive the device’s unified logs. Apple may provide diagnostics to developers if you separately choose to share analytics or diagnostics with Apple under your device settings. Firebase Crashlytics separately collects the crash and diagnostic information described below.
+
+## Analytics and crash reporting with Firebase
+
+Mangura uses Google Analytics for Firebase to understand basic use of the app. In its default configuration, Firebase Analytics automatically collects:
+
+- an app-instance identifier and Apple’s Identifier for Vendor (IDFV), which identify an installation or devices from the same vendor but do not directly identify you by name;
+- app launches, sessions, engagement, screen information, and app updates;
+- in-app purchase and subscription events, including product, price, and currency information;
+- general device, operating-system, app-version, language, and network information;
+- approximate geographic information derived from a masked IP address; and
+- technical information used to operate and assess the analytics service.
+
+Mangura also uses Firebase Crashlytics to detect and diagnose crashes. Crashlytics collects crash stack traces, relevant application state, crash and session timestamps, installation identifiers, and device, operating-system, app-version, memory, disk, and process information. When Firebase Analytics is available, Crashlytics may also receive analytics breadcrumb events describing app interactions immediately before a crash.
+
+Mangura does not set a Firebase user ID or send Firebase your name, email address, manga library, search terms, reading history, tracking-account credentials, media-server credentials, or advertising identifier as custom analytics or crash-report data. We do not use Firebase data for advertising or to track you across apps or websites owned by other companies. The independent developer can access aggregated analytics and crash reports through the Firebase console to understand feature use, diagnose failures, and improve the app.
+
+Firebase retains and processes this information under the project’s Firebase and Google Analytics settings and Google’s applicable terms. Crashlytics generally retains crash reports and their associated identifiers for 90 days before beginning deletion. For more information, see [Firebase’s Apple-platform data-disclosure guide](https://firebase.google.com/docs/ios/app-store-data-collection), [Privacy and Security in Firebase](https://firebase.google.com/support/privacy), and [Google’s Privacy Policy](https://policies.google.com/privacy).
 
 ## Network requests and content sources
 
@@ -124,6 +142,8 @@ Information is handled only to:
 - maintain your library and reading progress;
 - synchronize data with services you connect;
 - process purchases and restore subscription access;
+- measure app usage and purchase events;
+- detect, diagnose, and reduce crashes;
 - protect connections and complete source-access challenges; and
 - diagnose problems on your device or respond to support requests you initiate.
 
@@ -131,7 +151,7 @@ Where data-protection law requires a legal basis, processing is based on perform
 
 ## Sharing
 
-Mangura does not sell or rent personal information. Data is shared only with the service needed for a feature you choose: Apple, RevenueCat, a content source, a tracking provider, or a media server you configure. We may also disclose information if required by law or necessary to protect rights, safety, and security.
+Mangura does not sell or rent personal information. Data is shared only with the service needed for the app or a feature you choose: Apple, RevenueCat, Google Firebase, a content source, a tracking provider, or a media server you configure. We may also disclose information if required by law or necessary to protect rights, safety, and security.
 
 Mangura does not use data for third-party advertising and does not combine app data with data from other companies for advertising or advertising measurement.
 
@@ -139,7 +159,7 @@ Mangura does not use data for third-party advertising and does not combine app d
 
 On-device data remains until you delete it in the app, clear the relevant connection, or remove the app. Some Keychain items can survive app deletion under iOS behavior; disconnect tracking accounts and remove media-server connections before uninstalling if you want those credentials removed first.
 
-iCloud data remains until you use Mangura’s **Delete iCloud Data** control or manage it through Apple. Data sent to AniList, MyAnimeList, a content source, or your media server is retained under that service’s rules. RevenueCat and Apple retain purchase records for service, fraud-prevention, accounting, and legal purposes.
+iCloud data remains until you use Mangura’s **Delete iCloud Data** control or manage it through Apple. Data sent to AniList, MyAnimeList, a content source, or your media server is retained under that service’s rules. RevenueCat and Apple retain purchase records for service, fraud-prevention, accounting, and legal purposes. Firebase Analytics and Crashlytics data is retained under the applicable Firebase settings and Google’s terms; removing the app stops future collection from that installation but does not immediately delete information already retained by Firebase.
 
 ## Your choices and controls
 
@@ -161,7 +181,7 @@ Mangura uses platform protections such as the iOS app sandbox, Keychain storage 
 
 ## International transfers
 
-Apple, RevenueCat, content sources, tracking providers, GitHub, and user-configured servers may process information in countries other than your own. Their privacy policies describe the safeguards and locations relevant to their services.
+Apple, RevenueCat, Google Firebase, content sources, tracking providers, GitHub, and user-configured servers may process information in countries other than your own. Their privacy policies describe the safeguards and locations relevant to their services.
 
 ## Children
 
