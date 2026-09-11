@@ -26,7 +26,7 @@ export default function Home() {
               Read the terms of use
             </Link>
           </div>
-          <p className="status-line"><span aria-hidden="true">●</span> Current for Mangura 1.0 · Updated 10 September 2026</p>
+          <p className="status-line"><span aria-hidden="true">●</span> Current for Mangura 1.0 · Updated 11 September 2026</p>
         </div>
         <aside className="privacy-note" aria-label="Privacy summary">
           <p className="note-label">At a glance</p>
@@ -81,7 +81,7 @@ export default function Home() {
           <Link className="document-card" href="/terms/">
             <span>Using Mangura</span>
             <h3>Terms of Use</h3>
-            <p>The rules for using the app, connected services, user-added sources, and Mangura Pro.</p>
+            <p>The rules for using the app, connected services, user-added sources, and Mangura Plus.</p>
             <strong>Read terms <span aria-hidden="true">→</span></strong>
           </Link>
         </div>

@@ -1,7 +1,7 @@
 # Mangura Terms of Use
 
 **Effective date:** 6 August 2026  
-**Last updated:** 10 September 2026
+**Last updated:** 11 September 2026
 
 These Terms of Use (“Terms”) govern your use of the Mangura iOS app and the Mangura legal website. In these Terms, “Mangura,” “we,” and “us” refer to Mangura and its independent developer.
 
@@ -80,17 +80,17 @@ Mangura does not operate a Mangura user-account service. Optional connections ma
 
 If you believe a connected account or credential has been compromised, disconnect it in Mangura and contact the relevant service operator. Disconnecting a service from Mangura does not delete your account or information retained by that service.
 
-## Mangura Pro and purchases
+## Mangura Plus and purchases
 
-Mangura may offer subscriptions or other in-app purchases that unlock Mangura Pro software features. Available features, prices, billing periods, and any trial or promotional terms are shown before you confirm a purchase.
+Mangura may offer subscriptions or other in-app purchases that unlock Mangura Plus software features. Available features, prices, billing periods, and any trial or promotional terms are shown before you confirm a purchase.
 
 Purchases are processed by Apple and may be verified through RevenueCat. Apple charges your Apple Account when you confirm the purchase. Auto-renewable subscriptions renew unless you cancel them through Apple within the period stated on the purchase screen and in Apple’s terms. Deleting Mangura does not cancel a subscription.
 
 You can manage or cancel a subscription through your Apple Account subscription settings and use Mangura’s restore-purchases control for eligible purchases. Refunds are handled by Apple under Apple’s policies and applicable law.
 
-A Mangura Pro purchase licenses only Mangura software functionality. It does not purchase manga, pay a third-party subscription, grant access to a source or server, or provide any copyright, distribution, or other content rights.
+A Mangura Plus purchase licenses only Mangura software functionality. It does not purchase manga, pay a third-party subscription, grant access to a source or server, or provide any copyright, distribution, or other content rights.
 
-Mangura Pro features may evolve as the app changes. Any change remains subject to the description presented at purchase, Apple’s rules, and your mandatory consumer rights.
+Mangura Plus features may evolve as the app changes. Any change remains subject to the description presented at purchase, Apple’s rules, and your mandatory consumer rights.
 
 ## Updates and availability
 

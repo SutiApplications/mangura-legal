@@ -1,7 +1,7 @@
 # Mangura Privacy Policy
 
 **Effective date:** 6 August 2026  
-**Last updated:** 10 September 2026
+**Last updated:** 11 September 2026
 
 Mangura is an iOS manga reader that connects directly to content sources and services you choose. This policy explains what information Mangura handles, where it goes, and the controls available to you.
 
@@ -79,7 +79,7 @@ Neither Mangura nor its developer owns or claims any copyright, trademark, distr
 
 You are solely responsible for every source you add and for all content you access through it. You may add or use a source only when you own or operate it, have explicit authorization from its operator, or are otherwise legally permitted to use it. You may access or download only content that you own, have licensed, have permission to use, is in the public domain, or that you are otherwise legally entitled to access. You must comply with applicable copyright law, the source operator’s terms, and any access restrictions. Do not use Mangura to access, copy, download, or distribute unauthorized content, or to bypass access controls.
 
-Mangura does not verify, endorse, approve, or certify user-added sources. Successfully importing a configuration or connecting a server is not evidence of authorization. A Mangura Pro purchase licenses only Mangura software features; it does not purchase, license, authorize, or grant access to any manga, source, website, or third-party service.
+Mangura does not verify, endorse, approve, or certify user-added sources. Successfully importing a configuration or connecting a server is not evidence of authorization. A Mangura Plus purchase licenses only Mangura software features; it does not purchase, license, authorize, or grant access to any manga, source, website, or third-party service.
 
 Rights holders and service operators can [open a content or source concern](https://github.com/SutiApplications/mangura-legal/issues/new?labels=content-rights&title=Content%20or%20source%20concern). Please identify the work or service, explain your authority, and include enough information for us to evaluate the request without posting confidential credentials. We can take reasonable action concerning Mangura functionality or references under our control. Requests concerning content hosted by another service should also be directed to that service’s operator.
 
@@ -119,9 +119,9 @@ You can delete Mangura’s synced records at any time in **Settings → iCloud S
 
 ## Subscriptions and RevenueCat
 
-Mangura uses Apple’s in-app purchase system and RevenueCat to offer and verify Mangura Pro subscriptions. RevenueCat receives an automatically generated anonymous app-user identifier, transaction and receipt information, product and entitlement information, and limited technical information needed to operate the subscription service. Mangura does not send RevenueCat your name, email address, advertising identifier, manga library, searches, or reading history.
+Mangura uses Apple’s in-app purchase system and RevenueCat to offer and verify Mangura Plus subscriptions. RevenueCat receives an automatically generated anonymous app-user identifier, transaction and receipt information, product and entitlement information, and limited technical information needed to operate the subscription service. Mangura does not send RevenueCat your name, email address, advertising identifier, manga library, searches, or reading history.
 
-A Mangura Pro purchase licenses only software features in the app. It does not sell manga content or grant permission, access, or rights to any source or third-party content.
+A Mangura Plus purchase licenses only software features in the app. It does not sell manga content or grant permission, access, or rights to any source or third-party content.
 
 Payment-card and billing details are entered with Apple and are not available to Mangura or RevenueCat. Apple and RevenueCat retain transaction records as required to provide purchases, restore entitlements, prevent fraud, perform subscription analytics, and meet legal obligations. See [Apple’s Privacy Policy](https://www.apple.com/legal/privacy/) and [RevenueCat’s Privacy Policy](https://www.revenuecat.com/privacy-policy).
 

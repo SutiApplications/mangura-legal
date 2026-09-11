@@ -4,7 +4,7 @@ import { termsOfUse } from "../../lib/legal-documents";
 
 export const metadata: Metadata = {
   title: "Terms of Use",
-  description: "The terms that govern use of Mangura, connected services, sources, and Mangura Pro.",
+  description: "The terms that govern use of Mangura, connected services, sources, and Mangura Plus.",
   alternates: {
     canonical: "https://sutiapplications.github.io/mangura-legal/terms/",
   },
