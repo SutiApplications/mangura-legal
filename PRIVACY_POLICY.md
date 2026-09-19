@@ -1,7 +1,7 @@
 # Mangura Privacy Policy
 
 **Effective date:** 6 August 2026  
-**Last updated:** 11 September 2026
+**Last updated:** 19 September 2026
 
 Mangura is an iOS manga reader that connects directly to content sources and services you choose. This policy explains what information Mangura handles, where it goes, and the controls available to you.
 
@@ -15,7 +15,7 @@ In this policy, “Mangura,” “we,” and “us” refer to Mangura and its i
 - Your library, downloads, settings, cookies, and credentials are stored on your device by default.
 - Mangura does not sell personal information, show third-party ads, or track you across other companies’ apps and websites.
 - The app connects directly to manga websites, media servers, AniList, MyAnimeList, Apple iCloud, RevenueCat, and Google Firebase only as needed for the features you use.
-- Google Analytics for Firebase measures basic app use and purchases, while Firebase Crashlytics receives crash and diagnostic reports so we can understand usage and improve reliability.
+- Google Analytics for Firebase measures basic app use and purchases, while Firebase Crashlytics receives crash and diagnostic reports so we can understand usage and improve reliability. You can turn analytics off at any time in the app under Settings → Legal → Share Usage Data.
 - Optional iCloud Sync stores selected library data in your private iCloud database. Credentials, account tokens, cookies, local manga, downloads, and appearance settings are excluded.
 
 ## Information handled on your device
@@ -46,6 +46,10 @@ Mangura uses Google Analytics for Firebase to understand basic use of the app. I
 - general device, operating-system, app-version, language, and network information;
 - approximate geographic information derived from a masked IP address; and
 - technical information used to operate and assess the analytics service.
+
+Mangura also sends a small set of custom events so the developer can tell whether the app actually works for people who install it. These cover: setting up a content source and reaching your first search, saved title, and chapter; failures when a source, download, or iCloud Sync does not work; and whether the upgrade screen was shown, dismissed, or completed.
+
+These events are deliberately narrow. They never include search terms, manga or chapter titles, page or chapter web addresses, the name or address of a content source, or any identifier from your library. Where an event needs to tell one of your sources apart from another — for example to show that a particular source keeps failing — the source is represented by a short irreversible code derived from a random value created on your device when you first use the app. That random value is never sent anywhere, so the code cannot be turned back into a website address, and codes cannot be matched across different users or devices. Reasons for failure are fixed labels such as “parsing_error” or “network_error”, never error text, which can contain addresses. Reading activity — sessions, durations, page positions, and streaks — is never included.
 
 Mangura also uses Firebase Crashlytics to detect and diagnose crashes. Crashlytics collects crash stack traces, relevant application state, crash and session timestamps, installation identifiers, and device, operating-system, app-version, memory, disk, and process information. When Firebase Analytics is available, Crashlytics may also receive analytics breadcrumb events describing app interactions immediately before a crash.
 
@@ -170,6 +174,7 @@ You can:
 - disconnect tracking accounts and delete media-server connections;
 - clear downloads and local library data in the app;
 - disable iCloud Sync or delete all Mangura records from iCloud;
+- turn off **Share Usage Data** under Settings → Legal to stop Firebase Analytics collection, including the custom events and the pre-crash breadcrumbs described above. Crash reports themselves continue to be sent to Firebase Crashlytics so the app can be repaired;
 - change notification permission in iOS Settings; and
 - contact us about access, correction, deletion, objection, restriction, or portability rights that apply in your region.
 
