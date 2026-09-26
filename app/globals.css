@@ -349,7 +349,7 @@ nav a:hover {
 
 .document-grid {
   display: grid;
-  grid-template-columns: 1.08fr 0.92fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
 }
 
@@ -390,7 +390,7 @@ nav a:hover {
 
 .document-card h3 {
   margin-top: 48px;
-  font-size: clamp(2.5rem, 4vw, 3.8rem);
+  font-size: clamp(2.3rem, 3.2vw, 3.2rem);
 }
 
 .document-card p {
@@ -534,6 +534,25 @@ nav a:hover {
   font-size: 0.86em;
 }
 
+.legal-document pre {
+  margin: 22px 0 30px;
+  padding: 18px 20px;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-medium);
+  background: var(--surface);
+  font-size: 0.84rem;
+  line-height: 1.55;
+  -webkit-overflow-scrolling: touch;
+}
+
+.legal-document pre code {
+  padding: 0;
+  border-radius: 0;
+  background: none;
+  font-size: inherit;
+}
+
 .legal-document table {
   width: 100%;
   display: block;
@@ -658,6 +677,10 @@ nav a:hover {
   .card-grid,
   .document-grid {
     grid-template-columns: 1fr;
+  }
+
+  .document-card {
+    min-height: auto;
   }
 
   .principle-card {

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Privacy Center",
-  description: "Clear answers about Mangura’s privacy practices, user-added sources, and content responsibility.",
+  description: "Clear answers about Mangura’s privacy practices, user-added sources, the source configuration format, and content responsibility.",
 };
 
 export default function Home() {
@@ -83,6 +83,12 @@ export default function Home() {
             <h3>Terms of Use</h3>
             <p>The rules for using the app, connected services, user-added sources, and Mangura Plus.</p>
             <strong>Read terms <span aria-hidden="true">→</span></strong>
+          </Link>
+          <Link className="document-card" href="/sources/">
+            <span>Build your own</span>
+            <h3>Source Guide</h3>
+            <p>The JSON format for user-added sources: requests, parsers, placeholders, and a complete example you can adapt.</p>
+            <strong>Read guide <span aria-hidden="true">→</span></strong>
           </Link>
         </div>
       </section>

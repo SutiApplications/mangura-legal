@@ -1,1 +1,1 @@
-export { privacyPolicy, termsOfUse } from "./generated-legal-documents";
+export { privacyPolicy, sourceConfigurationGuide, termsOfUse } from "./generated-legal-documents";

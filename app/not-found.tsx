@@ -5,7 +5,7 @@ export default function NotFound() {
     <main id="main-content" className="not-found shell">
       <p className="eyebrow">404 · Page not found</p>
       <h1>This page is not in the library.</h1>
-      <p>The privacy policy and terms of use are still available from the home page.</p>
+      <p>The privacy policy, terms of use, and source guide are still available from the home page.</p>
       <Link className="button button-primary" href="/">Return home</Link>
     </main>
   );

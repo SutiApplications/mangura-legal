@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     template: "%s · Mangura",
   },
   description:
-    "Mangura's privacy policy, terms of use, and user-added source and content responsibilities.",
+    "Mangura's privacy policy, terms of use, source configuration guide, and user-added source and content responsibilities.",
   applicationName: "Mangura Privacy Center",
   alternates: {
     canonical: `${siteUrl}/`,
@@ -68,6 +68,7 @@ export default function RootLayout({
             <nav aria-label="Primary navigation">
               <Link href="/privacy/">Privacy policy</Link>
               <Link href="/terms/">Terms of use</Link>
+              <Link href="/sources/">Source guide</Link>
             </nav>
           </div>
         </header>
@@ -81,7 +82,8 @@ export default function RootLayout({
             <div className="footer-links">
               <Link href="/privacy/">Privacy</Link>
               <Link href="/terms/">Terms</Link>
-              <a href="https://github.com/SutiApplications/mangura-legal">Source</a>
+              <Link href="/sources/">Source guide</Link>
+              <a href="https://github.com/SutiApplications/mangura-legal">GitHub</a>
               <a href="https://github.com/SutiApplications/mangura-legal/issues/new?labels=privacy&title=Privacy%20request">
                 Contact
               </a>
